@@ -19,7 +19,7 @@ class Employee {
     String lastName;
 }
 
-public class StreamTryout {
+public class StreamTryout1 {
     private static Set<Integer> convertListToSet(List<Integer> list) {
         return (list == null) ? null : list.stream().collect(Collectors.toSet());
     }
